@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify";
 import Home from "./Pages/Home/Home.jsx";
 import About from "./Pages/About/About.jsx";
 import Practitioner from "./Pages/Practitioner/Practitioner.jsx";
+import PractitionerDetail from './Pages/PractitionerDetail/PractitionerDetail.jsx'
 import Pricing from "./Pages/Pricing/Pricing.jsx";
 import Contact from "./Pages/Contact/Contact.jsx";
 import RegisterAsPractitioner from "./Pages/Auth/RegisterAsPractitioner/RegisterAsPractitioner.jsx";
@@ -37,6 +38,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/practitioner" element={<Practitioner />} />
+          <Route path="/practitioner/:id" element={<PractitionerDetail />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/register-as-practitioner" element={<RegisterAsPractitioner />} />
