@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
 const PractionerCard = () => {
   const navigate = useNavigate();
   return (
@@ -24,7 +23,7 @@ const PractionerCard = () => {
           industry printing and typesetting industry.
         </p>
         <button
-          onClick={() => navigate("/practitioner/12456789")}
+          onClick={() => navigate("/practitioner/123456789")}
           className="btn-primary"
         >
           VIEW DETAILS

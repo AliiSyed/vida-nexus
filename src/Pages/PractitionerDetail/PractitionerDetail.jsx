@@ -2,6 +2,7 @@ import React from "react";
 import "./PractitionerDetail.css";
 import Service from "../../Components/Service/Service.jsx";
 import Testimonial from "../../Components/Testimonial/Testimonial.jsx";
+import { Link } from "react-router-dom";
 const PractitionerDetail = () => {
   return (
     <div className="practitioner-detail-container">
@@ -9,7 +10,7 @@ const PractitionerDetail = () => {
         <h1>Practitioner Detail</h1>
         <button className="btn-primary">
           <img src="/Images/storeIcon.png" alt="storeIcon.png" />
-          <p>VISIT STORE</p>
+          <Link to={"/practitioner/123456789/store"}>VISIT STORE</Link>
         </button>
       </div>
       <div className="practitioner-detail-header">

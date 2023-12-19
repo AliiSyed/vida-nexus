@@ -40,11 +40,11 @@
   justify-content: space-between;
 }
 .tesimonial-prev-btn {
-  transform: translateX(-10vw) scale(2);
+  transform: translateX(-3vw) scale(2);
   color: #fa8708;
 }
 .tesimonial-next-btn {
-  transform: translateX(10vw) scale(2);
+  transform: translateX(3vw) scale(2);
   color: #fa8708;
 }
 @media (max-width: 1500px) {
